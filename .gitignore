@@ -1,0 +1,73 @@
+# Power BI
+*.pbix-journal
+.Analysis
+.Analysis/*
+
+# SQL Server
+*.bak
+*.mdf
+*.ldf
+*.log
+*.trn
+
+# IDEs
+.vscode/
+.vs/
+*.code-workspace
+*.suo
+*.user
+*.sln.docstates
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temp files
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+
+# Build & Output
+bin/
+obj/
+out/
+build/
+
+# Environment
+.env
+.env.local
+credentials.txt
+passwords.txt
+
+# Data Backup (if stored in repo)
+*.csv
+*.xlsx
+*.xls
+backup/
+*.dump
+
+# Node (if any npm tools used)
+node_modules/
+package-lock.json
+
+# Python (if any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Logs
+*.log
+
+# IDE Settings (Personal)
+settings.json
+launch.json
+tasks.json
+
+# Cache
+.cache/
+cache/
